@@ -12,6 +12,10 @@ For demonstration purposes, I've chosen the beloved "Harry Potter and the Chambe
 
 To enhance the user experience and make our project accessible, I've employed Streamlit as the frontend framework. Streamlit is known for its simplicity and efficiency in creating interactive and visually appealing web applications.
 
+![02](https://github.com/MohammadSahil/Text_QnA_using_Bert_and_ChatGPT/assets/49077018/45f1671d-2759-494b-9def-8d83570bbfca)
+
+![03](https://github.com/MohammadSahil/Text_QnA_using_Bert_and_ChatGPT/assets/49077018/7826c7e4-b2c3-4c4a-8fe5-e82fd0dcaecf)
+
 # To run the application
 
 1. Install requirements.txt
