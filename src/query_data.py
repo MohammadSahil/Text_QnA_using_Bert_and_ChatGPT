@@ -26,9 +26,9 @@ def get_similar_sentence_paragraphs(query):
     model = BertModel.from_pretrained('bert-base-uncased')
     
     # loading embeddings
-    with open(r'C:\Users\User\Desktop\text qna\embeddings\sentence_embeddings.json', "r") as json_file:
+    with open(r'embeddings\sentence_embeddings.json', "r") as json_file:
         sentence_embeddings = json.load(json_file)
-    with open(r'C:\Users\User\Desktop\text qna\embeddings\paragraph_embeddings.json', "r") as json_file:
+    with open(r'embeddings\paragraph_embeddings.json', "r") as json_file:
         paragraph_embeddings = json.load(json_file)
 
     # Calculate cosine similarity between query and sentences
