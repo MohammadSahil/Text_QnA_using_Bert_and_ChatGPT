@@ -1,7 +1,7 @@
 # Text_QnA_using_Bert_and_ChatGPT
 Building Robust Large Text Q&amp;A Systems with BERT and ChatGPT 3.5 Turbo
 
-To understand in more detail please go through my bolg on Median:
+To understand in more detail please go through my bolg on Medium:
 https://medium.com/@mhdsahilkhn/building-robust-large-text-q-a-systems-with-bert-and-chatgpt-3-5-turbo-with-code-6101a7a43d58
 
 To tackle the challenge of retrieving relevant information from a large corpora of text, one effective approach is to leverage the power of BERT (Bidirectional Encoder Representations from Transformers) and ChatGPT 3.5 Turbo. The integration of BERT and ChatGPT 3.5 Turbo has offered a powerful and dynamic approach to address this challenge. By combining BERT's contextual understanding with ChatGPT 3.5 Turbo's conversational abilities, we can navigate a vast corpora of text, providing users with accurate, personalised, and engaging information retrieval experiences.
