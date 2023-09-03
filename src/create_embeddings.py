@@ -54,7 +54,7 @@ def make_embeddings(text):
 
 
 #Reading text
-with open(r'C:\Users\User\Desktop\text qna\data\Harry_Potter_and_the_Chamber_of_Secrets.txt', 'r', encoding='utf-8') as f:
+with open(r'data\Harry_Potter_and_the_Chamber_of_Secrets.txt', 'r', encoding='utf-8') as f:
     text = f.read()
 
 #Making Embeddings
@@ -65,13 +65,13 @@ except Exception as e:
 
 #saving embeddings in disk
 try:
-    with open(r'C:\Users\User\Desktop\text qna\embeddings\sentence_embeddings.json', "w") as json_file:
+    with open(r'embeddings\sentence_embeddings.json', "w") as json_file:
         json.dump(sentence_embeddings, json_file)
 except Exception as e:
     print(e)
 
 try:
-    with open(r'C:\Users\User\Desktop\text qna\embeddings\paragraph_embeddings.json', "w") as json_file:
+    with open(r'embeddings\paragraph_embeddings.json', "w") as json_file:
         json.dump(paragraphs_embeddings, json_file)
 except Exception as e:
     print(e)
